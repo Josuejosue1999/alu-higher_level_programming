@@ -6,5 +6,5 @@ if LastD > 5:
     print('Last digit of' ,number, 'is' ,LastD, 'and is greater than 5')
 elif (LastD < 6 and LastD !=0):
     print('Last digit of' ,number, 'is' ,LastD, 'and is less than 6 and not 0')
-elif LastD == 0:
+else:
     print('Last digit of' ,number, 'is' ,LastD, 'and is 0')
