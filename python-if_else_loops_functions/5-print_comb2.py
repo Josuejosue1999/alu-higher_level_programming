@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 for b in range(0, 100):
-    print("{:02}".format(b), end=', ')
+    if b == 99:
+        print("{}".format(b))
+    else:
+        print("{:02}".format(b), end=', ')
