@@ -1,8 +1,9 @@
 #!/usr/bin/node
 const args = process.argv.slice(2);
+const firstArgument = args[0];
 
-if (args.length >= 2) {
-  console.log(`${args[0]} is ${args[1]}`);
+if (firstArgument !== undefined) {
+  console.log(`${firstArgument} is ${args[1] !== undefined ? args[1] : 'undefined'}`);
 } else {
-  console.log('Not enough arguments');
+  console.log(`undefined is undefined`);
 }
