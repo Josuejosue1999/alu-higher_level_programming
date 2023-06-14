@@ -7,4 +7,3 @@ if (!isNaN(parsedInt)) {
 } else {
   console.log('Not a number');
 }
-
